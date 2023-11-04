@@ -4,6 +4,10 @@ const localQuotes = [
     "author": "Thomas Edison, type.fit"
   },
   {
+    "text": "Who you are is who you had decide to be. A series of choices makes your future.",
+    "author": "JudahYadah, type.fit"
+  },
+  {
     "text": "You can observe a lot just by watching.",
     "author": "Yogi Berra, type.fit"
   },
