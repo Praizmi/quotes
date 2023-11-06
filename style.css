@@ -80,7 +80,8 @@ button:active{
 }
 
 .fa-twitter{
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 /* media queries */

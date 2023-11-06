@@ -40,4 +40,15 @@ async function getQuotes() {
 // On Load
 getQuotes();
 
+
+//  Tweet quote
+function tweetQuote() {
+    const twitterUrl = `https://twitter.com/compose/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+    window.open(twitterUrl, '_blank');
+}
+
+// Event listeners
+newQuoteBtn.addEventListener('click', newQuote);
+twitterBtn.addEventListener('click', tweetQuote);
+
 // newQuote();
